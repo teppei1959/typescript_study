@@ -7,7 +7,6 @@ export default class World {
 
 
 
-  
 
   public sayHello(elem: HTMLElement | null) {
     if (elem) {
