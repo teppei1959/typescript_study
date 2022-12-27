@@ -29,4 +29,10 @@ export default function arraySample() {
     // someArray.push(true)
     console.log('Array array sample 4:', someArray)
 
+    // イミュータブルな配列を作る
+    const commands: readonly string[] = ['git add', 'git commit', 'git push']
+    // commands.push('git fetch') // 追加不可
+    // commands[2] = 'git pull' // 代入不可
+    console.log('Array array sample 5:', commands)
+
 }
