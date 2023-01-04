@@ -41,5 +41,13 @@
 // genericsBasicSample()
 // genericsAdvancedSample()
 
-import test from "./interface/interface";
-test();
+// import test from "./interface/interface";
+// test();
+
+// 非同期処理
+// import callbackSample from "./asynchronous/callback";
+// callbackSample()
+// import promiseSample from "./asynchronous/promise";
+// promiseSample()
+import asyncAwaitSample from "./asynchronous/asyncAwait";
+asyncAwaitSample()
